@@ -2,7 +2,7 @@ import sys
 # sys.path.append("C:\\Users\\shuve\\OneDrive\\Documents\\GitHub\\python-DSA\\custom_print")
 # sys.path.append("C:/Users/shuve/OneDrive/Documents/GitHub/python-DSA/custom_print")
 sys.path.append('..')
-from custom_print import custom_print
+# from custom_print import custom_print
 
 
 # 1))) Prebuild function "len()"
@@ -18,7 +18,7 @@ def custom_len(sequence):
 
 lst = [1, 2, 3, 4]
 print(custom_len(lst))
-custom_print(custom_len(lst))
+# custom_print(custom_len(lst))
 
 
 
