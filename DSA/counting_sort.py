@@ -23,3 +23,8 @@ def counting_sort(arr):
 
     for i in range(len(arr)):
         arr[i] = output[i]
+
+
+arr = [1, 3, 5, 6, 0, 2, 8, 4, 9, 7]
+counting_sort(arr)
+print(arr)
