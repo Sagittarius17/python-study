@@ -14,3 +14,10 @@ if __name__ == '__main__':
     ]
 
     print(coordinates)
+
+
+my_list = [10, 20, 30, 30, 40, 50]
+print([i for i in my_list if i != 30 and i != 40]) # list comprehension
+
+even_squares = [ i * i for i in range(100) if i%2 == 0]
+print(even_squares)
