@@ -21,3 +21,26 @@ duck = Duck()
 
 describe_bird(parrot)  # Output: "This bird says: Polly wants a cracker"
 describe_bird(duck)    # Output: "This bird says: Quack!"
+
+
+class Car:
+    def fuel_tank(self):
+        pass
+    
+class TATA(Car):
+    def fuel_tank(self):
+        return "15L"
+    
+class BMW(Car):
+    def fuel_tank(self):
+        return "17L"
+
+def describe_car(car):
+    print(f"this car can store upto: {car.fuel_tank()}")
+
+tata = TATA()
+bmw = BMW()
+
+describe_car(tata)
+describe_car(bmw)
+

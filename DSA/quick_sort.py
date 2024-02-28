@@ -11,3 +11,6 @@ def quick_sort(arr):
         less = [x for x in arr[1:] if x <= pivot]
         greater = [x for x in arr[1:] if x > pivot]
         return quick_sort(less) + [pivot] + quick_sort(greater)
+
+arr = [1, 2, 9, 4, 7, 6, 3, 8]
+print(quick_sort(arr))

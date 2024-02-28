@@ -130,10 +130,25 @@ print(custom_pow(2, 3))  # Output: 8
 
 
 
-# 5))) Prebuild function "abs()"
+# 10))) Prebuild function "sort()"
+lst4 = [2, 1, 4, 3]  
+lst4.sort()
+print(lst4) # Output: [1, 2, 3, 4]
+
+# Alternative or without using "sort()" function:
+def custom_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(i+1,n):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]
+                
+arr = [2, 1, 4, 3]
+custom_sort(arr)
+print(arr) # Output: [1, 2, 3, 4]
 
 
-# 5))) Prebuild function "abs()"
+
 
 
 
